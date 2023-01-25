@@ -14,6 +14,70 @@
 /* **************************** */
 @media (max-width: 75em) {
 }
+@media (max-width: 1200px) {
+  html {
+    font-size: 59%;
+  }
+  header {
+    max-width: 100%;
+    font-size: 2.4rem;
+    height: 7.7rem;
+    border-bottom: 2px solid #ffff;
+  }
+  .container {
+    width: 90%;
+  }
+  .display__flex__around {
+    display: flex;
+  }
+  .display__flex__around nav {
+    width: 100%;
+    margin-left: 0;
+  }
+  .display__flex__around ul {
+    margin-left: 45%;
+  }
+  .display__flex__between {
+    width: 100%;
+  }
+  #img img {
+    position: relative;
+    margin-left: 4.2rem;
+    margin-top: 1rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+    height: auto;
+  }
+
+  #img::before {
+    position: absolute;
+    margin-left: 3.5rem;
+    content: "";
+    width: 32%;
+    height: 42.2%;
+  }
+  .adventure {
+    margin-left: -2rem;
+  }
+  .img img {
+    aspect-ratio: 2/2;
+    object-fit: cover;
+    height: 45vh;
+    /* margin-left: -3rem; */
+  }
+  .timeline {
+    left: 47%;
+  }
+  .timeline-container-left .timeline-pointer-left {
+    left: 35.7%;
+  }
+  .verticaLigne {
+    height: 102vh;
+  }
+}
+
 /* ******************************* */
 
 @media (max-width: 59em) {
@@ -376,5 +440,47 @@
     font-size: 1.8rem;
     font-weight: 400;
     letter-spacing: 0.5px;
+  }
+}
+@media (max-width: 27em) {
+  html {
+    font-size: 54%;
+  }
+  header {
+    max-width: 100%;
+    font-size: 2.4rem;
+    height: 7.7rem;
+    border-bottom: 2px solid red;
+  }
+  .container {
+    width: 100vw;
+  }
+  .display__flex__around {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+  .display__flex__around nav {
+    margin-left: 1rem;
+  }
+  .display__flex__between li {
+    /* width: 100%; */
+    display: block;
+  }
+  .academic__backgrounds {
+    height: 100vh;
+   
+}
+  .display__flex__around ul {
+    margin-left: -20%;
+  }
+  .title {
+    margin-top: -2%;
+  }
+  .adventure li {
+  }
+  .adventure li div {
+    left: 40%;
   }
 }
