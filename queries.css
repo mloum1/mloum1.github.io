@@ -188,11 +188,11 @@
     margin-left: 1rem;
   }
   .display__flex__between li {
+    width: 100%;
     display: block;
-    margin-left: 1rem;
   }
   .display__flex__around ul {
-    margin-left: 0;
+    margin-left: -20%;
   }
   .introduction {
     font-size: 1rem;
@@ -283,7 +283,7 @@
     position: absolute;
     content: "";
     height: 500px;
-    left: 6.5%;
+    left: 7.2%;
     width: 7px;
     background: red;
     animation: anim 2s infinite;
@@ -343,7 +343,7 @@
     height: 1600px;
   }
   .timeline {
-    left: 41%;
+    left: 43%;
   }
   .timeline img {
     text-align: center;
@@ -356,6 +356,15 @@
     font-size: 1.2rem;
   }
   .timeline-container-left {
+    left: 2%;
+    margin-top: 9px;
+  }
+  .timeline-container-left {
+    margin-right: 17px;
+  }
+  .timeline-container-right {
+    margin-left: 17px;
+    margin-top: 34px;
   }
   footer .text-content {
     font-size: 1.8rem;

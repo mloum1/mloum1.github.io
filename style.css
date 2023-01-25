@@ -120,7 +120,6 @@ section {
   margin-left: auto;
 }
 
-
 .introduction {
   background: linear-gradient(to right, #19211e, white);
   color: var(--bs-light);
@@ -298,7 +297,7 @@ section {
     border: 6px solid yellow;
   }
   100% {
-    border: 6px solid orange;
+    border: 6tipx solid orange;
   }
 }
 .adventure li:last-child {
@@ -318,7 +317,7 @@ section {
   margin-top: -5rem;
   left: -7px;
   border-radius: 50%;
- 
+
   animation: anim 5s infinite;
 }
 .adventure li div {
@@ -416,7 +415,6 @@ section {
   position: relative;
   width: 8rem;
   height: 8rem;
-  background-color: red;
   border-radius: 60%;
   left: 48%;
 
