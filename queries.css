@@ -261,10 +261,10 @@
   }
   .adventure {
     max-width: 100%;
+    margin-top: -20% !important;
   }
   .adventure ul {
     display: flex;
-    top: 0;
     width: 100%;
   }
   .adventure li {
@@ -357,7 +357,9 @@
   }
   .timeline-container-left {
   }
-  footer .text_coontent {
-    font-size: 1rem;
+  footer .text-content {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
   }
 }
