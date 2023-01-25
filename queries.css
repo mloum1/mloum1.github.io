@@ -230,6 +230,7 @@
     align-items: center;
     max-width: 80vw;
     height: auto;
+    padding-bottom: 2px;
   }
 
   #img::before {
@@ -237,7 +238,8 @@
     margin-left: 3.5rem;
     content: "";
     width: 80vw;
-    height: 38vh;
+    height: 38.3vh;
+    animation: animate 5s infinite;
   }
   .academic__backgrounds {
     height: 90vh;
@@ -307,10 +309,10 @@
   }
 
   .adventure li div {
-    top: 12rem;
+    top: 16rem;
     width: 60%;
     height: auto;
-    left: 30%;
+    left: 33%;
     padding-left: 2rem;
   }
   .adventure li div .title__1 {
@@ -356,7 +358,7 @@
     font-size: 1.2rem;
   }
   .timeline-container-left {
-    left: 2%;
+    left: 5%;
     margin-top: 9px;
   }
   .timeline-container-left {
@@ -365,6 +367,10 @@
   .timeline-container-right {
     margin-left: 17px;
     margin-top: 34px;
+  }
+  .timeline-container-left .timeline-pointer-left {
+    left: 33%;
+    margin-top: 16px;
   }
   footer .text-content {
     font-size: 1.8rem;

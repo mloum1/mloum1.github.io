@@ -170,7 +170,7 @@ section {
   border-radius: 50%;
   margin-left: -6px;
   margin-top: 6px;
-  /* animation: animate 5s infinite; */
+  animation: animate 5s infinite;
 }
 
 @keyframes animate {
@@ -297,12 +297,13 @@ section {
     border: 6px solid yellow;
   }
   100% {
-    border: 6tipx solid orange;
+    border: 6px solid orange;
   }
 }
 .adventure li:last-child {
   background: var(--bg-color);
-  width: 2rem;
+  animation: none;
+  /* width: 2rem; */
 }
 .adventure li span {
   position: absolute;
@@ -317,7 +318,6 @@ section {
   margin-top: -5rem;
   left: -7px;
   border-radius: 50%;
-
   animation: anim 5s infinite;
 }
 .adventure li div {
@@ -325,21 +325,28 @@ section {
   background: lightgoldenrodyellow;
   padding: 1rem;
   text-align: center;
-  margin-top: -15rem;
+  margin-top: -18rem;
   text-align: left;
   border-radius: 8px;
-  margin-left: -2rem;
+  transform: translate(-20%);
   color: black;
   font-size: 1.2rem;
+  width: auto;
+}
+.adventure .title__1 {
+  color: red;
+  font-weight: 400;
+}
+.adventure .descript {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 .adventure li div::before {
   position: absolute;
   content: "";
-  height: 3rem;
+  /* height: 3rem;
   width: 3rem;
-  background: lightgoldenrodyellow;
-  margin-left: -3rem;
-  transform: translateY(95%) rotate(45deg);
+  background: lightgoldenrodyellow; */
 }
 .detail__ico__parcours {
   background: linear-gradient(to right, #6b6f6d, white);
