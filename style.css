@@ -250,12 +250,12 @@ section {
 }
 .img img {
   position: relative;
-  height: 50vh;
+  height: 30vh;
+  width: auto;
   display: block;
   justify-content: center;
   align-items: center;
-  padding: 17px;
-  border-radius: 30px;
+  border-radius: 11px;
 }
 .academic__backgrounds .title {
   padding-top: 0;
@@ -328,6 +328,21 @@ section {
   width: 20rem;
   height: 5px;
   background: red;
+  animation: anim 5s infinite;
+}
+@keyframes anim {
+  0% {
+    border: 6px solid red;
+  }
+  25% {
+    border: 6px solid green;
+  }
+  50% {
+    border: 7px solid yellow;
+  }
+  100% {
+    border: 7px solid orange;
+  }
 }
 .adventure li:last-child {
   background: var(--bg-color);
@@ -344,8 +359,10 @@ section {
   width: 10rem;
   border: 6px solid red;
   margin-top: -5rem;
+  left: -7px;
   border-radius: 50%;
   animation: animated 5s infinite;
+  animation: anim 5s infinite;
 }
 .adventure li div {
   position: absolute;
