@@ -427,7 +427,7 @@ section {
   text-transform: uppercase;
 }
 .text_bold {
-  color: var(--bs-light);
+  color: var(--bs-gray-dark);
   font-weight: 600;
   font-size: 4rem;
 }

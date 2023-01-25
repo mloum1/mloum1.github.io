@@ -40,34 +40,8 @@ allSections.forEach((section) => {
   sectionObserver.observe(section);
   section.classList.add("section__hidden");
 });
-//
 
-// const sky = document.querySelector(".sky");
-// const airplane = document.querySelector(".airplane");
+const annee = document.querySelector(".year");
+const date = new Date();
 
-// sky.addEventListener("mouseover", () => {
-//   airplane.classList.add("flying");
-// });
-
-// sky.addEventListener("mouseout", () => {
-//   airplane.classList.remove("flying");
-// // });
-// const airplane = document.querySelector(".airplane");
-// airplane.addEventListener("animationend", () => {
-//   airplane.style.animation = "";
-// });
-
-// li span handle
-
-const spans = document.querySelectorAll(".adventure > li > span ");
-console.log(spans);
-spans.forEach((span) => {
-  span.addEventListener("mouseover", () => {
-    span.style.border = " 7px solid yellow";
-  });
-  span.addEventListener("mouseout", () => {
-    span.style.border = "";
-  });
-});
-
-///testing
+annee.innerHTML = "      " + date.getFullYear() + "   " + date.getDay();
