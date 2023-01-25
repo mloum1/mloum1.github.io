@@ -442,7 +442,7 @@
     letter-spacing: 0.5px;
   }
 }
-@media (max-width: 27em) {
+/* @media (max-width: 27em) {
   html {
     font-size: 54%;
   }
@@ -483,4 +483,4 @@
   .adventure li div {
     left: 40%;
   }
-}
+} */
