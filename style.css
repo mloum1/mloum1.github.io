@@ -120,50 +120,7 @@ section {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .container-sm,
-  .container {
-    max-width: 540px;
-  }
-}
 
-@media (min-width: 768px) {
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container-xl,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 1140px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container-xxl,
-  .container-xl,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container {
-    max-width: 1320px;
-  }
-}
 .introduction {
   background: linear-gradient(to right, #19211e, white);
   color: var(--bs-light);
@@ -214,7 +171,7 @@ section {
   border-radius: 50%;
   margin-left: -6px;
   margin-top: 6px;
-  animation: animate 5s infinite;
+  /* animation: animate 5s infinite; */
 }
 
 @keyframes animate {
@@ -328,7 +285,7 @@ section {
   width: 20rem;
   height: 5px;
   background: red;
-  animation: anim 5s infinite;
+  animation: anim 1s infinite;
 }
 @keyframes anim {
   0% {
@@ -338,10 +295,10 @@ section {
     border: 6px solid green;
   }
   50% {
-    border: 7px solid yellow;
+    border: 6px solid yellow;
   }
   100% {
-    border: 7px solid orange;
+    border: 6px solid orange;
   }
 }
 .adventure li:last-child {
@@ -361,7 +318,7 @@ section {
   margin-top: -5rem;
   left: -7px;
   border-radius: 50%;
-  animation: animated 5s infinite;
+ 
   animation: anim 5s infinite;
 }
 .adventure li div {
