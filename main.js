@@ -2,18 +2,26 @@
 
 //le string à utiliser
 
-const text = `Aprés une licence en Langues étrangères appliquées, je suis tourné vers l'informatique et je poursuis actuellement un 
-   Master en informatique à l'université de Montpellier. Je suis à la recherche d'une alternance pour le Master 2 en tant que développeur whatsoever.`;
+const text = `Actuellement étudiant en  Master d'informatique et profondément passioné par le traitement des données et le développement, je suis à la recherche d'une alternance  pour ma dernière année de Master.
+
+Je suis persuadé que cette alternance serait l'occassion pour mettre en pratique mes connaissances et de continuer à développer mes compétences dans ces domaines.
+`;
 //compteur initialiser à zéro j'ai utiliser let car elle sera globale et je pourrai l'utiliser à l'intérieur d'une fonction
 let i = 0;
 //variable de la vittesse
 const speed = 10;
+let master = "Master d'informatique";
+let alternance = "alternance";
+let element = document.getElementById("text");
 
 function typeWriter() {
   if (i < text.length) {
     document.getElementById("text").innerHTML += text.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
+    if (element.innerHTML.includes(master)) {
+      // master.style.color="green"
+    }
   } else {
     setTimeout(function () {
       i = 0;

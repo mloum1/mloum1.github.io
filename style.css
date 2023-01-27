@@ -48,7 +48,7 @@ html {
 body {
   font-family: inherit;
   width: 100vw;
-  /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
 /* hneader  */
 header {
@@ -70,13 +70,12 @@ section {
 }
 
 .display__flex__around nav {
-  margin-left: 4.2rem; 
+  margin-left: 4.2rem;
 }
 .display__flex__around nav a {
   color: var(--bs-light);
 }
 .display__flex__around ul {
-  
 }
 .display__flex__between {
   display: flex;
