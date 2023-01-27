@@ -48,6 +48,7 @@ html {
 body {
   font-family: inherit;
   width: 100vw;
+  /* overflow-y: hidden; */
 }
 /* hneader  */
 header {
@@ -64,28 +65,29 @@ section {
 }
 .display__flex__around {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .display__flex__around nav {
-  justify-items: flex-start;
-  margin-left: -4.2rem;
+  margin-left: 4.2rem; 
 }
 .display__flex__around nav a {
   color: var(--bs-light);
 }
 .display__flex__around ul {
-  margin-left: 60%;
+  
 }
 .display__flex__between {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .display__flex__between li {
   list-style: none;
   margin-left: 13px;
 }
 .display__flex__between li:last-child {
-  margin-right: 0px;
+  /* margin-right: 0px; */
 }
 .display__flex__between li a {
   text-decoration: none;
