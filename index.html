@@ -23,7 +23,11 @@
           <a href="#">le logo goes here <i class="fas fa-medium"></i></a>
         </nav>
         <ul class="display__flex__between">
-          <li><a href="#">download cv</a></li>
+          <li>
+            <a href="" download="Maniang Loum_cv_en_français_nw.pdf(9).pdf"
+              >download cv</a
+            >
+          </li>
           <li>
             <a href="#">contact</a>
           </li>
@@ -162,10 +166,25 @@
                   <h1 class="nom_du_cours">
                     Système d'information et de base de données
                   </h1>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat, corrupti! Lorem ipsum dolor, sit amet consectetur
-                    adipisicing elit. Vero, commodi?
+                  <p class="sibd">
+                    Click pour savoir sur ce module...
+                    <div class="modal hidden" id="connectModal">
+                      <button class="btn--close-modal  btn--close-modal">&times;</button>
+                      <h2 class="modal__header">
+                        Se connecter
+                      </h2>
+                      <form class="modal__form" action="connexion.php" method="POST">
+                        <label for="">Email:</label>
+                        <input type="eamil" name="email" placeholder="Saisissez votre adresse mail" required>
+                        <label for="">Mot de passe:</label>
+                        <input type="password" name="pwd" placeholder="Mot de passe*" required>
+                        <button type="submit" name="submit" class="btn">Se connecter &rarr;</button>
+                        <button type="reset">annuler</button>
+                      </form>
+                      <p class="paragraph-desc  "> Vous n'avez pas de compte ? <a href="./inscription.html" 
+                        class="link__s">S'inscrire</a></p>
+                    </div>
+                    <div class="overlay  hidden "></div>
                   </p>
                 </div>
               </div>
