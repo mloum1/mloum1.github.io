@@ -56,39 +56,37 @@ annee.innerHTML = "      " + date.getFullYear() + "   " + date.getDay();
 
 /// les modal
 
-const modal = document.querySelector(".modal");
+const sidb = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".btn--close-modal");
 const btnsOpenModal = document.querySelectorAll(".btn--show-modal");
-const sibd = document.getElementById("sibd");
+const op = document.getElementById("sibd");
 // toutes les classes
-
-const connect = document.getElementById("connectModal");
 // Modal window
 
-const openModal = function (e) {
-  e.preventDefault();
-  modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-};
+// const openModal = function (e) {
+//   e.preventDefault();
+//   sibd.classList.remove("hide");
+//   overlay.classList.remove("hide");
+// };
 
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-};
+// const closeModal = function () {
+//   sibd.classList.add("hide");
+//   overlay.classList.add("hide");
+// };
 
-btnsOpenModal.forEach((btn) => btn.addEventListener("click", openModal));
+// btnsOpenModal.forEach((btn) => btn.addEventListener("click", openModal));
 
-for (let i = 0; i < btnsOpenModal.length; i++)
-  btnsOpenModal[i].addEventListener("click", openModal);
+// for (let i = 0; i < btnsOpenModal.length; i++)
+//   btnsOpenModal[i].addEventListener("click", openModal);
 
-btnCloseModal.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+// btnCloseModal.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
 
-document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
-    closeModal();
-  }
-  if (!modal.classList.contains("registerModal")) {
-  }
-});
+// document.addEventListener("keydown", function (e) {
+//   if (e.key === "Escape" && !sidb.classList.contains("hide")) {
+//     closeModal();
+//   }
+
+//   console.log(op);
+// });
